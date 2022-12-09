@@ -1,3 +1,3 @@
 export const getDbConnectionString = () => {
-    return process.env.MONGO_DB_CONNECTION_STRING!;
+    return 'mongodb+srv://jedie20:87654321@cluster0.soimyia.mongodb.net/?retryWrites=true&w=majority'!;
 }
